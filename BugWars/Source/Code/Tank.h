@@ -3,6 +3,11 @@
 
 struct Tank : public TankBase
 {
+	Tank()
+	{
+		visible = true;
+		disabled = false;
+	};
 	DEFINE_RTTI;
 
 	virtual void OnUpdate(float dt) override;

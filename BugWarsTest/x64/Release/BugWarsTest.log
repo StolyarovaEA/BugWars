@@ -1,0 +1,5 @@
+﻿  Main.cpp
+  pch.cpp
+  TestBugsTargetSearch.cpp
+  TestTankShoot.cpp
+LINK : fatal error LNK1181: не удается открыть входной файл "D:\code\BugWars\x64\Release\BugWars.lib"

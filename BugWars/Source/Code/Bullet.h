@@ -3,6 +3,11 @@
 
 struct Bullet : public BulletBase
 {
+	Bullet()
+	{
+		visible = true;
+		disabled = false;
+	};
 	DEFINE_RTTI;
 
 	virtual void OnStart(Point direction) override;

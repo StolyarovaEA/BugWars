@@ -1,0 +1,24 @@
+﻿  pch.cpp
+  BugBase.cpp
+  BulletBase.cpp
+  Framework.cpp
+  GameBase.cpp
+  GameObject.cpp
+  Memory.cpp
+  TankBase.cpp
+  Texture.cpp
+SDL2_image.lib(SDL2_image.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR уже определен в SDL2.lib(SDL2.dll); второе определение пропущено
+SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR уже определен в SDL2.lib(SDL2.dll); второе определение пропущено
+WinPixEventRuntime.lib(WinPixEventRuntime.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR уже определен в SDL2.lib(SDL2.dll); второе определение пропущено
+  GameBase.vcxproj -> D:\code\BugWars\x64\Release\GameBase.lib
+  D:\code\BugWars\GameBase\Source\Libs\Bin\libfreetype-6.dll
+  D:\code\BugWars\GameBase\Source\Libs\Bin\libjpeg-9.dll
+  D:\code\BugWars\GameBase\Source\Libs\Bin\libpng16-16.dll
+  D:\code\BugWars\GameBase\Source\Libs\Bin\libtiff-5.dll
+  D:\code\BugWars\GameBase\Source\Libs\Bin\libwebp-7.dll
+  D:\code\BugWars\GameBase\Source\Libs\Bin\SDL2.dll
+  D:\code\BugWars\GameBase\Source\Libs\Bin\SDL2_image.dll
+  D:\code\BugWars\GameBase\Source\Libs\Bin\SDL2_ttf.dll
+  D:\code\BugWars\GameBase\Source\Libs\Bin\WinPixEventRuntime.dll
+  D:\code\BugWars\GameBase\Source\Libs\Bin\zlib1.dll
+  Скопировано файлов: 10.

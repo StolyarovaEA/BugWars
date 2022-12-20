@@ -3,7 +3,13 @@
 
 struct Bug : public BugBase
 {
+	Bug()
+	{
+		visible = true;
+		disabled = false;
+	};
 	DEFINE_RTTI;
+
 
 	virtual void OnUpdate(float dt) override;
 	virtual BugBase* FindBugToEat() const override;

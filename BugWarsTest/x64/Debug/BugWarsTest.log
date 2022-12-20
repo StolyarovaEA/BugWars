@@ -1,0 +1,24 @@
+﻿  Main.cpp
+  pch.cpp
+  TestBugsTargetSearch.cpp
+  TestTankShoot.cpp
+UnitTest++-d.lib(TestRunner.obj) : warning LNK4099: "UnitTest++-d.pdb" PDB не найден с "UnitTest++-d.lib(TestRunner.obj)" или на "D:\code\BugWars\x64\Debug\UnitTest++-d.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+UnitTest++-d.lib(TestDetails.obj) : warning LNK4099: "UnitTest++-d.pdb" PDB не найден с "UnitTest++-d.lib(TestDetails.obj)" или на "D:\code\BugWars\x64\Debug\UnitTest++-d.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+UnitTest++-d.lib(TestResults.obj) : warning LNK4099: "UnitTest++-d.pdb" PDB не найден с "UnitTest++-d.lib(TestResults.obj)" или на "D:\code\BugWars\x64\Debug\UnitTest++-d.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+UnitTest++-d.lib(MemoryOutStream.obj) : warning LNK4099: "UnitTest++-d.pdb" PDB не найден с "UnitTest++-d.lib(MemoryOutStream.obj)" или на "D:\code\BugWars\x64\Debug\UnitTest++-d.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+UnitTest++-d.lib(CurrentTest.obj) : warning LNK4099: "UnitTest++-d.pdb" PDB не найден с "UnitTest++-d.lib(CurrentTest.obj)" или на "D:\code\BugWars\x64\Debug\UnitTest++-d.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+UnitTest++-d.lib(Test.obj) : warning LNK4099: "UnitTest++-d.pdb" PDB не найден с "UnitTest++-d.lib(Test.obj)" или на "D:\code\BugWars\x64\Debug\UnitTest++-d.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+UnitTest++-d.lib(TestList.obj) : warning LNK4099: "UnitTest++-d.pdb" PDB не найден с "UnitTest++-d.lib(TestList.obj)" или на "D:\code\BugWars\x64\Debug\UnitTest++-d.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+UnitTest++-d.lib(TestReporter.obj) : warning LNK4099: "UnitTest++-d.pdb" PDB не найден с "UnitTest++-d.lib(TestReporter.obj)" или на "D:\code\BugWars\x64\Debug\UnitTest++-d.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+UnitTest++-d.lib(TestReporterStdout.obj) : warning LNK4099: "UnitTest++-d.pdb" PDB не найден с "UnitTest++-d.lib(TestReporterStdout.obj)" или на "D:\code\BugWars\x64\Debug\UnitTest++-d.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+UnitTest++-d.lib(TimeHelpers.obj) : warning LNK4099: "UnitTest++-d.pdb" PDB не найден с "UnitTest++-d.lib(TimeHelpers.obj)" или на "D:\code\BugWars\x64\Debug\UnitTest++-d.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+  BugWarsTest.vcxproj -> D:\code\BugWars\x64\Debug\BugWarsTest.exe
+D:\code\BugWars\BugWarsTest\Source\Code\TestTankShoot.cpp(37): error : Failure in TankShoot_1: Expected 1 but was 0
+D:\code\BugWars\BugWarsTest\Source\Code\TestTankShoot.cpp(44): error : Failure in TankShoot_2: Expected 1 but was 0
+D:\code\BugWars\BugWarsTest\Source\Code\TestTankShoot.cpp(51): error : Failure in TankShoot_3: Expected 1 but was 0
+D:\code\BugWars\BugWarsTest\Source\Code\TestTankShoot.cpp(67): error : Failure in TankShoot_5: Expected 1 but was 0
+D:\code\BugWars\BugWarsTest\Source\Code\TestTankShoot.cpp(83): error : Failure in TankShoot_7: Expected 1 but was 0
+  FAILURE: 5 out of 12 tests failed (5 failures).
+  Test time: 0.00 seconds.
+D:\program\vs\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(159,5): error MSB3075: команда "D:\code\BugWars\x64\Debug\BugWarsTest
+D:\program\vs\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(159,5): error MSB3075: :VCEnd" завершила работу с кодом 5. Убедитесь в наличии достаточных прав для выполнения этой команды.

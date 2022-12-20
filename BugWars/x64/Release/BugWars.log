@@ -1,0 +1,9 @@
+﻿  Bug.cpp
+  Bullet.cpp
+  Game.cpp
+D:\code\BugWars\BugWars\Source\Code\Game.cpp(21,2): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Main.cpp
+  pch.cpp
+  Tank.cpp
+D:\code\BugWars\BugWars\Source\Code\Tank.cpp(17,26): warning C4305: инициализация: усечение из "unsigned int" в "float"
+  BugWars.vcxproj -> D:\code\BugWars\x64\Release\BugWars.lib
