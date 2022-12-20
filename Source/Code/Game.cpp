@@ -22,7 +22,7 @@ void Game::OnUpdate(float dt)
 	{
 		auto obj = objects[i];
 
-		//obj->visible = true;//NeedsRender(tank->position, obj->position);
+		obj->visible = NeedsRender(tank->position, obj->position);
 
 		if (!obj->disabled)
 		{
@@ -38,9 +38,9 @@ void Game::OnUpdate(float dt)
 
 bool Game::NeedsRender(const Point& center, const Point& object)
 {
-	auto distance = center.Distance(object);
+	auto dist = center - object;
 
-	return distance < 1000;
+	return fabs(dist.y) < 1000 && fabs(dist.x) < 1000;
 
 }
 
